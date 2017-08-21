@@ -67,11 +67,11 @@ public class MainActivity extends Activity {
                 }
                 //调整结果TextView字号
                 if (str_result.length() > 10) {
-                    txtResult.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 48);
-                } else if (str_result.length() > 15) {
                     txtResult.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 36);
+                } else if (str_result.length() > 15) {
+                    txtResult.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 24);
                 } else {
-                    txtResult.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 64);
+                    txtResult.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 48);
                 }
 
                 txtResult.setText(str_result);
